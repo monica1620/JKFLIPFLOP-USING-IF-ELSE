@@ -34,15 +34,51 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+
+/ Write all the steps involved in implementing and simulating the JK flip-flop /
+1. Open Quartus Prime and create a new project for the JK flip-flop.
+2. Create a new Verilog file and type the JK flip-flop program.
+3. Declare the inputs j, k, clk and outputs q, qbar as reg.
+4. Initialize q and qbar inside an initial block to set the starting state.
+5. Use an always @(posedge clk) block to update the output on every positive clock edge.
+6. Implement the JK characteristic equation using q <= (j & ~q) | (~k & q).
+7. Assign qbar <= ~q to generate the complement output.
+8. Save and compile the program to check for errors.
+9. Create a simulation file and add the module for waveform testing.
+10. Apply different combinations of j, k, and clock pulses in the waveform editor.
+11. Run the simulation to observe q and qbar transitions.
+12. Compare the simulated results with the JK truth table.
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
+```
+
+
+module JKflipflop(j,k,clk,q,qbar);
+input j,k,clk;
+output reg q,qbar;
+initial 
+begin
+q=1'b0;
+q=1'b1;
+end 
+
+always @(posedge clk)
+begin 
+q<=(j&~q)|(~k&q);
+qbar<=~q;
+end
+endmodule
+```
+
 **RTL LOGIC FOR FLIPFLOPS**
+<img width="1916" height="1077" alt="image" src="https://github.com/user-attachments/assets/f1566af8-fa37-4032-a524-9f34dd6db61f" />
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+
 
 **RESULTS**
