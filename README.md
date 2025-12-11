@@ -79,6 +79,9 @@ endmodule
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d5fc28de-a15b-49dc-8ffb-d0d4d861561c" />
 
 
 **RESULTS**
+
+The JK flip-flop was successfully designed and implemented using Verilog in Quartus Prime. The RTL schematic and timing diagram were obtained, and the observed output waveforms matched the theoretical JK flip-flop truth table, confirming correct functionality.
