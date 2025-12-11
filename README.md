@@ -35,7 +35,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 **Procedure**
 
 
-/ Write all the steps involved in implementing and simulating the JK flip-flop /
+
 1. Open Quartus Prime and create a new project for the JK flip-flop.
 2. Create a new Verilog file and type the JK flip-flop program.
 3. Declare the inputs j, k, clk and outputs q, qbar as reg.
@@ -51,8 +51,13 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* 
+   Program for JK flip-flop and verification of its truth table 
+   using Verilog in Quartus Prime.
+   Developed by: Monica R
+   Register Number: 25010138
 */
+
 
 ```
 
