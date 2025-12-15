@@ -61,8 +61,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 ```
 
-
-module JKflipflop(j,k,clk,q,qbar);
+module jkflip(j,k,clk,q,qbar);
 input j,k,clk;
 output reg q,qbar;
 initial 
@@ -80,13 +79,15 @@ endmodule
 ```
 
 **RTL LOGIC FOR FLIPFLOPS**
-<img width="1916" height="1077" alt="image" src="https://github.com/user-attachments/assets/f1566af8-fa37-4032-a524-9f34dd6db61f" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/e856fa44-cf9e-4337-b7f4-468973550749" />
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d5fc28de-a15b-49dc-8ffb-d0d4d861561c" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c69f9d6b-2f32-4ace-8bf5-6ba26bb8275e" />
 
 
-**RESULTS**
+
+  
+**Result**
 
 The JK flip-flop was successfully designed and implemented using Verilog in Quartus Prime. The RTL schematic and timing diagram were obtained, and the observed output waveforms matched the theoretical JK flip-flop truth table, confirming correct functionality.
