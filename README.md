@@ -51,12 +51,13 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
-/* 
-   Program for JK flip-flop and verification of its truth table 
-   using Verilog in Quartus Prime.
-   Developed by: Monica R
-   Register Number: 25010138
-*/
+ 
+   **Program for JK flip-flop and verification of its truth table**
+  
+   **Developed by**: *Monica R*
+   
+   **Register Number**: *25010138*
+
 
 
 ```
